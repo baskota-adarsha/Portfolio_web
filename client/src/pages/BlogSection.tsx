@@ -8,7 +8,7 @@ const BlogSection = () => {
   const getBlogs = async () => {
     try {
       const blogs = await axios.get<blogDetails[]>(
-        "http://192.168.1.8:5000/blogs"
+        "https://portfolio-backend-8n4x.onrender.com/blogs"
       ); //"http://localhost:5000/blogs" "http://192.168.1.8:5000/blogs"
       if (blogs) setBlogs(blogs.data);
     } catch (error) {

@@ -7,7 +7,7 @@ const ContactMe = () => {
   const postMessage = async (formData: postMessages) => {
     try {
       const response = await axios.post(
-        "http://192.168.1.8:5000/message", //"http://192.168.1.8:5000/blogs" http://localhost:5000/message
+        "https://portfolio-backend-8n4x.onrender.com/message", //"http://192.168.1.8:5000/blogs" http://localhost:5000/message
         formData
       );
       if (response.status === 200) {

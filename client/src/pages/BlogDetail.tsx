@@ -11,7 +11,7 @@ const BlogDetail = () => {
 
     try {
       const response = await axios.get<blogDetails>(
-        `http://192.168.1.8:5000/blogs/${id}` //"http://192.168.1.8:5000/blogs"/ http://localhost:5000/blogs/${id}/
+        `https://portfolio-backend-8n4x.onrender.com/blogs/${id}` //"http://192.168.1.8:5000/blogs"/ http://localhost:5000/blogs/${id}/
       );
       setBlog(response.data);
     } catch (error) {
