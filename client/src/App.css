@@ -292,6 +292,7 @@ body {
   .glow-underline {
     font-size: 25px;
     margin-left: -90px;
+    margin-bottom: 40px;
   }
   .para {
     font-size: 20px !important;
@@ -301,6 +302,7 @@ body {
     word-wrap: break-word; /* Prevents overflow issues */
     display: inline-block; /* Helps keep the text inline */
     margin-right: -200px !important;
+    margin-bottom: 20px !important;
   }
   .ran {
     margin-left: -130px;
