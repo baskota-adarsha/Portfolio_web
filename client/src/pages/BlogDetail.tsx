@@ -27,6 +27,7 @@ const BlogDetail = () => {
       <div
         className="d-flex justify-content-center align-items-center"
         style={{
+          marginTop: "90px",
           minHeight: "50vh", // Use viewport height instead of fixed pixels
           width: "100%", // Take full width of container
         }}

@@ -26,13 +26,16 @@ const BlogSection = () => {
         className="d-flex justify-content-center align-items-center"
         style={{
           minHeight: "50vh", // Use viewport height instead of fixed pixels
-          width: "100%", // Take full width of container
+          width: "100%",
+          marginTop: "90px",
+          // Take full width of container
         }}
       >
         <div
           className="spinner-border text-info loader"
           style={{
-            fontSize: "calc(2rem + 2vw)", // Responsive font size based on viewport width
+            fontSize: "calc(2rem + 2vw)",
+            marginBottom: "100px", // Responsive font size based on viewport width
           }}
           role="status"
         >
