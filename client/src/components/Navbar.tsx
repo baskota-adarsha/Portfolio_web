@@ -96,20 +96,7 @@ const Navbar = () => {
               ABOUT ME
             </Link>
           </li>
-          <li className="nav-item">
-            <Link
-              style={{
-                color: "white",
-                fontSize: "18px",
-                position: "relative",
-                cursor: "pointer",
-              }}
-              to="/blogs"
-              className="nav-link"
-            >
-              BLOG
-            </Link>
-          </li>
+         
           <li className="nav-item">
             <Link
               style={{
